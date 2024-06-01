@@ -1,0 +1,132 @@
+.back {
+    width: 500px;
+    height: 500px;
+    background-color: #06283D;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+.weather-card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ciudad{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    margin: 0%;
+  }
+  
+  .encabezado{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mid img,
+.mid p {
+  margin: 0;
+}
+
+  .footter{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+  }
+
+  .viento,.humedad{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .soplo{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+  }
+
+  .ubi{
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+  .texto{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weather-icon {
+    width: 150px;
+    height: 150px;
+    margin-right: 0px;
+  }
+  
+  .city-input {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 15px;
+    color: #06283D;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .weather-details {
+    color: #06283D;
+  }
+  
+
+  .temperature,
+  .wind-speed,
+  .humidity {
+    margin: 20px 0;
+    padding: 0px;
+  }
+  
+  .temperature{
+    font-size: 50px;
+  }
+
+  .search-button {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .weather-status{
+    font-size: medium;
+  }
+  
